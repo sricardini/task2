@@ -1,93 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100vw;
+    margin: 1rem 3rem;
+}
+
+.nombre {
+    font-size: 250%;
+}
+
+nav {
+    position: relative;
+    width: 90vw;
+    height: auto;
+    display: inline;
+    top: 2rem;
+
+}
+
+nav > a {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    left: 70%;
+    margin: .5rem;
+    padding: .5rem;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+a[href="#"] {
+    background-color: greenyellow;
+}
+
+
 .boxpagename {
     text-align: center;
     color:white;
     background-color: black; 
-    padding: 1px; 
+    padding: 1px;
+    width: 100%;
     font-size: 1.2rem;
     top: 0;
-    
+    margin-left: -1rem;
 }
+
+img {
+    width: 100%;
+    height: 50vh;
+    margin-left: -1rem;
+    top: -1rem;
+    object-fit: cover;
+
+}
+
 #logo{
-    width: 100px;
-    height: 100px;
-}
-
-
-
-
-/*.nombre {
-    font-size: 250%;
-    margin-left: 100px;
-    width: auto;
+    position: absolute;
+    width: 100%;
     height: 200px;
-}
-.nombre > img {
-    position: relative;
-    float: under;
-    margin-top: -50px;
-    margin-bottom: 50px;
-    width: 93%;
-    height: 75%;
-    z-index: -1;
-  }
-ul {
-    display: inline-block;
-    list-style-type: none;
-    padding-right: 0px;
- 
-}
-li {    
-    float: left;
-    position: relative;
-    top: -140px; 
-    left: 1000px;
-}
-
-button {
-    background-color:blue;
-    border: black;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-
-}
-li a:active {
-    background-color: green;
-    color: white;
-  }
-li a:hover {
-    background-color: green;
-  }
-
-#logo {
-    float: left;
+    object-fit: contain;
+    margin-top: 1rem;
+    top: 80%;
+    display: block;
+    width: 15%;
     background-color: white;
-    margin-top: 0;
-    margin-left: 100px;
-    width: 100px;
-    height: 100px;
-    z-index: 1;
 }
-.texto {  
 
+
+.texto {  
     margin: auto;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: 20%;
+    height: -1rem;
+    width: 50vw;
     padding: 10px;
+    padding-bottom: 5rem ;
     text-align: justify;
 
 }
-.boxpagename  {
-    position: relative;
-    text-align: center;
-    background-color: black;
-    color: white;
-    margin: 100px;
-    margin-top: -30px;
-    width: auto;
-    z-index: -1;
-}//*
+
+h3 {
+    margin-top: 2rem;
+}
+p {
+    margin-top: 2rem;
+}
